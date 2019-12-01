@@ -1,0 +1,52 @@
+
+.footerFont{
+  font-family: 'Neucha', cursive;
+  color:white;
+}
+
+footer{
+  display:block;
+  background: #1e1e1e;
+  height:20%;
+  width:100%;
+
+}
+
+footer img{
+  height:1.5%;
+  width:1.5%;
+  padding:0.7%;
+}
+
+#socialMediaContainer{
+  padding:10px;
+  text-align:center;
+}
+
+
+#facebookLogo{
+  border-left:1px gray solid;
+}
+
+.email{
+  text-align:center;
+  color:white;
+}
+
+.copyRight{
+  color:gray;
+  text-align:left;
+}
+
+.followUs{
+  position:relative;
+  top:6px;
+  text-align:center;
+}
+
+.colorfulBottomBorder{
+  border-image:linear-gradient(to right, #5d1770,#6699ff, #00cc66);
+  border-image-slice: 1;
+  border-width:3px;
+  border-bottom:3px transparent solid;
+}

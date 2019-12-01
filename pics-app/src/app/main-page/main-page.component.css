@@ -1,0 +1,35 @@
+.siteTitle{
+  display: flex;
+  justify-content: space-evenly;
+  color: #86C323;
+  font-size: 3.5vw;
+  border-bottom: 3px solid #474B4F;
+  margin-bottom: 2%;
+}
+
+.ImgsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.singleImgStyle{
+  width: 80%;
+  height: 80%;
+  margin: 5%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .singleImgStyle {
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    border:1px solid #6B6E70;
+    box-shadow:5px 5px 8px black;
+
+  }
+}
+

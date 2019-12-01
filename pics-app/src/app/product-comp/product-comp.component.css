@@ -1,0 +1,59 @@
+
+.productImgSize{
+  height:50%;
+  width:30%;
+  min-height:300px;
+  min-width:350px;
+}
+
+.flex{
+  display:flex;
+  color:black;
+}
+
+#details{
+  flex-direction:column;
+  flex-wrap:wrap;
+  margin-left:20px;
+}
+.detailsFont{
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.productName{
+  font-size:30px;
+
+}
+
+.nameIiItem{
+  margin-bottom: 20px;
+}
+
+.slogan{
+  font-size:24px;
+}
+
+.price{
+  color:red;
+}
+
+ul{
+  margin:20px;
+  padding:0;
+}
+
+ul li {
+  margin-top:10px;
+}
+
+input{
+  background-color:orange;
+  border:1px grey solid;
+  box-shadow:1px 1px gray;
+  margin-top:10px;
+}
+
+#container{
+  margin-left:3%;
+}

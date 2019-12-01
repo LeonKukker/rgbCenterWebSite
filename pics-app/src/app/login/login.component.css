@@ -1,0 +1,40 @@
+/*mat input config*/
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: #6699ff !important;
+}
+
+::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-image: linear-gradient(to right, #5d1770,#6699ff, #00cc66) !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  background-color:#6699ff !important;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+mat-card{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  height :50%;
+  width:30%;
+  margin:5%;
+}
+
+mat-card button {
+  margin:1%;
+  color: #5882ff;
+}
+
+.bottomText{
+  color:gray;
+  font-size:13px;
+  opacity: 0.7;
+}

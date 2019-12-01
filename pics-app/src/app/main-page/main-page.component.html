@@ -1,0 +1,24 @@
+<div class="siteTitle" >
+  Dynamic Photo Gallery
+</div>
+
+<div *ngFor="let picture of picturesArray | async">
+  {{picture | json}}
+</div>
+
+
+<button (click)="click()">sup</button>
+<div class="ImgsContainer">
+  <img class="singleImgStyle" src="../../assets/IMG_1879.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1270.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1308.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1879.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1270.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1308.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1879.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1270.JPG">
+  <img class="singleImgStyle" src="../../assets/IMG_1308.JPG">
+</div>
+
+
+

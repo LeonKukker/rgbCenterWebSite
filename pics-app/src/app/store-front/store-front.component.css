@@ -1,0 +1,323 @@
+header{
+  background-image:url("/../../assets/Laser show concert lights color abstraction psychedelic wallpaper ....jpg");
+  height:600px;
+  display:flex;
+  justify-content: center;
+}
+
+body{
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  /*margin-top:5%;*/
+  /*margin-bottom:5%;*/
+  background-image:url("/../../assets/concrete_seamless.png")
+}
+
+h1{
+  margin-top:200px;
+  position:absolute;
+  text-align:center;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  height:200px;
+  line-height: 200px;
+  letter-spacing: 15px;
+  color:white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+section{
+  outline:none;
+  background-image:url("/../../assets/concrete_seamless.png")
+
+}
+
+.colorfulFullBorder{
+  border:3px transparent solid;
+  border-image:linear-gradient(to right, #5d1770,#6699ff, #00cc66);
+  border-image-slice:1;
+  padding:0;
+}
+
+.colorfulBottomBorder{
+  border-image:linear-gradient(to right, #5d1770,#6699ff, #00cc66);
+  border-image-slice: 1;
+  border-width:3px;
+  border-bottom:3px transparent solid;
+}
+
+#placeholder{
+  font-size: 80px;
+  color:#fff;
+}
+
+#textGrid{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#h2{
+  width:45%;
+  font-size:70px;
+  margin:20px;
+  padding:20px;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 5px;
+  background-color:#F94044;
+  color:white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.navBar{
+  display:flex;
+  justify-content: space-between;
+  width:55%;
+  height:3%;
+  padding:1.5%;
+  transition: all 0.6s ease-in-out ;
+  /*hack to get the back image white*/
+  margin-right:-22.5%;
+  margin-left:-22.5%;
+  padding-right:22.5%;
+  padding-left:22.5%;
+}
+
+.leftButtonContainer, .rightButtonContainer {
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+.navBar:hover, .navBar:hover .nav__navBtn, .navBar:hover .logo{
+  color:black;
+}
+
+/*hack to get the back image white*/
+.navBar:hover{
+  background-color: #fafafa;
+  /*box shadow for our nav bar*/
+  -webkit-box-shadow: 0 2px 2px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 2px 2px 2px rgba(0,0,0,0.75);
+  box-shadow: 0 2px 2px 2px rgba(0,0,0,0.75);
+}
+
+.logo{
+  color:white;
+  transition: all 0.8s ease-in-out;
+}
+
+.nav__navBtn{
+  margin:10px;
+  margin-top:0;
+  padding-bottom:30px;
+  border:3px transparent solid;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  background:transparent;
+  color:white;
+  outline:none;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  /*button animation*/
+  background-size: 0 2px, 0 0, 100% 100%;
+  transition: all 0.8s ease-in ;
+
+}
+
+.nav__navBtn:hover {
+  border-image:linear-gradient(to right, #5d1770,#6699ff, #00cc66);
+  border-image-slice: 1;
+}
+
+
+.colorBar{
+  min-height:5px;
+  height:1%;
+  width:100%;
+  background-image:linear-gradient(to right, #5d1770,#6699ff, #00cc66);
+  box-shadow: 10px 10px black;
+}
+
+.title{
+  display:block;
+}
+
+/*HOT PRODUCTS SLIDER'S CSS GRID*/
+
+h2{
+  height:50px;
+}
+
+#hotDealsSection{
+  /*background:#EDF0F9;*/
+  width:100%;
+}
+
+#dealsContainer{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin:50px;
+}
+
+
+.dealsProduct{
+  width:300px;
+  height:350px;
+}
+
+.saleBanner{
+  position:absolute;
+  height:0;
+  width:0;
+  border-color: #F94044 transparent transparent #F94044;
+  border-style:solid;
+  border-width: 50px 50px 50px 50px;
+}
+
+
+
+.saleText{
+  position:absolute;
+  bottom:4px;
+  right:8px;
+  color:white;
+  transform: rotate(-45deg);
+}
+
+/*my products inside the sale section of the store-front comp*/
+.saleProduct1{
+
+}
+
+.saleProduct2{
+
+}
+
+.saleProduct3{
+
+}
+
+.saleProduct4{
+
+}
+
+.saleProduct5{
+
+}
+
+body section p {
+  text-align:center;
+  margin:0 auto;
+  width:70%;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+body section img {
+  border-radius:2%;
+}
+
+.categoriesContainer{
+  display:grid;
+  grid-template-columns:15% 35% 35% 10%;
+  grid-template-rows: auto auto;
+  grid-row-gap:1%;
+  padding:20px;
+}
+
+.braceletsCat{
+  grid-column-start: 2;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+}
+
+.ringsCat{
+  grid-column-start:2;
+  grid-column-end:2;
+  grid-row-start:2;
+  grid-row-end:2;
+}
+
+.necklaceCat{
+  grid-column-start:3;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:2;
+}
+
+.catPic{
+  width:100%;
+  height:600px;
+}
+
+.leftProductPic{
+  float:right;
+}
+
+.rightProductPic{
+  float:left;
+}
+
+.productPicSize{
+  height:600px;
+  width: 75%;
+  margin:5%;
+}
+
+
+.catButton{
+  height:50px;
+  width:300px;
+  top:60%;
+  border-image:linear-gradient(to right, #5d1770,#6699ff, #00cc66);
+  border-image-slice: 1;
+  border-width:2px;
+  background-color:#1e1e1e;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  outline:none;
+  cursor: pointer;
+}
+
+.posAbsolute{
+  position:absolute;
+}
+
+.catText{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:70px;
+  top:40%;
+  color:white;
+  font-size:80px;
+  letter-spacing:15px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  outline:none;
+}
+
+.fillerText{
+  width:40%;
+  font-size:38px;
+  padding:20px;
+  font-family: 'Fjalla One', sans-serif;
+  background-image:linear-gradient(to right, #5d1770,#6699ff);
+  color:white;
+}
+
+.lineUpCenter{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
