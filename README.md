@@ -1,5 +1,5 @@
 ```diff
-# -rgb+Center.com
+# - rgb+ Center.com
 ```
 Looking for cool stuff for your next Rave?
 Have you ever wanted to make your porch/garden a nicer place to hang out at in night?
